@@ -1,0 +1,48 @@
+{
+  "education": [
+    {
+      "name": "National College of Ireland",
+      "href": "https://www.ncirl.ie",
+      "logo": "/img/nci-light.png",
+      "logoDark": "/img/nci-dark.png",
+      "positions": [
+        {
+          "title": "Master of Science, Cloud Computing",
+          "start": "2023",
+          "end": "Apr 2025",
+          "description": [
+            "MSc focused on cloud infrastructure, distributed systems, and production operations on AWS.",
+            "Research project: CloudShield-Federated. a self-adaptive federated learning system deployed across multiple AWS EC2 instances using Python, TensorFlow, and Scikit-learn.",
+            "Applied KMeans clustering to group clients by computational capacity, improving F1 score from 89.7% to 90.0% compared to non-clustered baseline."
+          ],
+          "links": [
+            {
+              "name": "Research Paper",
+              "href": "https://norma.ncirl.ie/8133",
+              "icon": "file-text"
+            },
+            {
+              "name": "GitHub",
+              "href": "https://github.com/DidheemosePS",
+              "icon": "github"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "University of Calicut",
+      "href": "https://www.uoc.ac.in",
+      "logo": "/img/calicut-light.png",
+      "logoDark": "/img/calicut-dark.png",
+      "positions": [
+        {
+          "title": "Bachelor of Computer Applications (BCA)",
+          "start": "2020",
+          "end": "Mar 2023",
+          "description": ["GPA: 7/10"]
+        }
+      ]
+    }
+  ]
+}

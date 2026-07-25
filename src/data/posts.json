@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "slug": "zero-to-system-design-one-week",
+      "title": "From Zero to System Design in One Week",
+      "summary": "How I prepared for my first system design interview with no prior experience, learning data pipelines, failure handling, and cloud architecture from the ground up in seven days.",
+      "tags": ["System Design", "Cloud", "Career"],
+      "publishedAt": "2026-07-16T09:00:00Z",
+      "readingTime": "5 min",
+      "draft": false
+    }
+  ]
+}

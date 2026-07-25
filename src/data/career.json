@@ -1,0 +1,94 @@
+{
+  "career": [
+    {
+      "name": "Studd Games",
+      "href": "https://www.studdgames.com",
+      "logo": "/img/studd-games.png",
+      "positions": [
+        {
+          "title": "Cloud & Infrastructure Engineer (Freelance)",
+          "start": "Jun 2026",
+          "description": [
+            "Provisioned local development environment using Docker containers (PHP 8.1, MySQL), replicating production server specs for consistent dev/test parity.",
+            "Implemented Git branching strategy (feature → staging → production) enabling safe isolated deployments with full rollback capability.",
+            "Configured staging environment on shared Linux hosting (cPanel) using Git version control, subdomain creation, and DNS management via Cloudflare.",
+            "Diagnosed and resolved DNS propagation failure caused by external nameserver conflict between cPanel zone records and Cloudflare authoritative DNS, restoring service availability."
+          ],
+          "links": [
+            {
+              "name": "Repository",
+              "href": "https://github.com/DidheemosePS",
+              "icon": "github"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mondelēz International",
+      "href": "https://www.mondelez.com",
+      "logo": "/img/mondelez-light.png",
+      "logoDark": "/img/mondelez-dark.png",
+      "positions": [
+        {
+          "title": "Facility Operations Coordinator",
+          "start": "Jul 2024",
+          "description": [
+            "Sole night-shift operative responsible for all operational activities across multiple zones, executing time-critical schedules from 20:00 to 05:00 with zero-failure handover to day shift.",
+            "Diagnosed and resolved operational equipment issues independently during night shift, identifying root causes and implementing solutions without escalation.",
+            "Maintained compliance documentation to client audit standards with zero failures across all inspection cycles.",
+            "Trained four new staff members on full site procedures including equipment operation, health and safety requirements, and compliance documentation."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cursus",
+      "href": "https://cursus.didheemose.dev",
+      "logo": "/img/cursus.ico",
+      "positions": [
+        {
+          "title": "Founder & Infrastructure Engineer",
+          "start": "Dec 2025",
+          "end": "Mar 2026",
+          "description": [
+            "Provisioned and managed full AWS infrastructure using Terraform including ECS Fargate, RDS PostgreSQL, ALB, Route 53, ACM, and ECR. All infrastructure defined as code with zero manual configuration.",
+            "Built and operated CI/CD pipeline with AWS CodePipeline and CodeBuild, delivering zero-downtime container deployments to ECS on every release.",
+            "Configured Docker containerisation across all services, managing image builds, ECR pushes, and container orchestration on ECS Fargate.",
+            "Monitored production system health using CloudWatch dashboards and alarms, responding to and resolving infrastructure issues to maintain platform availability."
+          ],
+          "links": [
+            {
+              "name": "Live Platform",
+              "href": "https://cursus.didheemose.dev",
+              "icon": "globe"
+            },
+            {
+              "name": "GitHub",
+              "href": "https://github.com/DidheemosePS/cursus-lms",
+              "icon": "github"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accurate Software Solutions",
+      "href": "https://www.accuratesoftware.online",
+      "logo": "/img/accurate-software.png",
+      "positions": [
+        {
+          "title": "Junior Full-Stack Developer",
+          "start": "Feb 2023",
+          "end": "Mar 2024",
+          "description": [
+            "Contributed to React/Node.js server-side applications supporting high-volume concurrent requests, maintaining stable system performance at production scale.",
+            "Assisted in optimising database indexing and RESTful API endpoints, contributing to measurable improvements in system response times.",
+            "Collaborated on implementing JWT authentication and data encryption standards across multiple services.",
+            "Supported automation of CI/CD pipelines, contributing to faster and more reliable deployment cycles."
+          ]
+        }
+      ]
+    }
+  ]
+}

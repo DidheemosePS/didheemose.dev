@@ -1,0 +1,16 @@
+{
+  "introduction": {
+    "greeting": "hi didhee here. 👋",
+    "description": "Infrastructure as code by design. Deployments by discipline. I build, automate, and keep it running.",
+    "chatPrompt": "For Q&A, start a chat with Didhee Support",
+    "escalation": {
+      "text": "For any escalations, please find my",
+      "linkText": "linkedin",
+      "suffix": "instead."
+    }
+  },
+  "escalationLink": {
+    "href": "https://www.linkedin.com/in/didheemose",
+    "title": "didhee"
+  }
+}

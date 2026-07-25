@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "name": "Cursus",
+      "description": "Live cloud-native Learning Management System (LMS) platform built on AWS with zero-downtime deployments, multi-tenant architecture, and production-grade infrastructure as code.",
+      "href": "https://cursus.didheemose.dev",
+      "image": "/img/cursus.png",
+      "tags": [
+        "AWS",
+        "ECS Fargate",
+        "Terraform",
+        "Docker",
+        "RDS PostgreSQL",
+        "Node.js",
+        "CI/CD Pipeline",
+        "CloudWatch"
+      ],
+      "links": [
+        {
+          "name": "Live Platform",
+          "href": "https://cursus.didheemose.dev",
+          "icon": "globe"
+        },
+        {
+          "name": "GitHub",
+          "href": "https://github.com/DidheemosePS/cursus-lms",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "CloudShield-Federated",
+      "description": "Self-adaptive federated learning system deployed across AWS EC2 instances. Applied distributed machine learning with KMeans clustering, improving F1 score from 89.7% to 90.0%.",
+      "href": "https://norma.ncirl.ie/8133",
+      "image": "/img/cloudshield.png",
+      "tags": [
+        "Python",
+        "AWS EC2",
+        "TensorFlow",
+        "Flask",
+        "Docker",
+        "Scikit-learn",
+        "KMeans",
+        "Federated Learning"
+      ],
+      "links": [
+        {
+          "name": "Research Paper",
+          "href": "https://norma.ncirl.ie/8133",
+          "icon": "file-text"
+        },
+        {
+          "name": "GitHub",
+          "href": "https://github.com/DidheemosePS",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}
