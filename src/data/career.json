@@ -32,6 +32,11 @@
           ],
           "links": [
             {
+              "name": "Live Platform",
+              "href": "https://www.studdgames.com/",
+              "icon": "globe"
+            },
+            {
               "name": "Repository",
               "href": "https://github.com/DidheemosePS",
               "icon": "github"
