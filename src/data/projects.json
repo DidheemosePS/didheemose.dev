@@ -30,7 +30,7 @@
     },
     {
       "name": "CloudShield-Federated",
-      "description": "Self-adaptive federated learning system deployed across AWS EC2 instances. Applied distributed machine learning with KMeans clustering, improving F1 score from 89.7% to 90.0%.",
+      "description": "CloudShield-Federated is a production-grade, hybrid federated learning MLOps platform built for secure financial fraud detection. It implements a split-architecture monorepo that separates decentralized edge training from a secure cloud-native Kubernetes control plane. The system leverages Flower 1.36 for distributed model aggregation, MLflow for experiment tracking and model registry, Envoy Gateway for secure TLS termination and backend re-encryption, and a centralized FastAPI service to serve real-time predictions using global model checkpoints.",
       "href": "https://norma.ncirl.ie/8133",
       "image": "/img/cloudshield.png",
       "tags": [
@@ -51,7 +51,7 @@
         },
         {
           "name": "GitHub",
-          "href": "https://github.com/DidheemosePS",
+          "href": "https://github.com/DidheemosePS/CloudShield-Federated",
           "icon": "github"
         }
       ]

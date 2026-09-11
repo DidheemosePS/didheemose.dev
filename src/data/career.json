@@ -1,30 +1,6 @@
 {
   "career": [
     {
-      "name": "Studd Games",
-      "href": "https://www.studdgames.com",
-      "logo": "/img/studd-games.png",
-      "positions": [
-        {
-          "title": "Cloud & Infrastructure Engineer (Freelance)",
-          "start": "Jun 2026",
-          "description": [
-            "Provisioned local development environment using Docker containers (PHP 8.1, MySQL), replicating production server specs for consistent dev/test parity.",
-            "Implemented Git branching strategy (feature → staging → production) enabling safe isolated deployments with full rollback capability.",
-            "Configured staging environment on shared Linux hosting (cPanel) using Git version control, subdomain creation, and DNS management via Cloudflare.",
-            "Diagnosed and resolved DNS propagation failure caused by external nameserver conflict between cPanel zone records and Cloudflare authoritative DNS, restoring service availability."
-          ],
-          "links": [
-            {
-              "name": "Repository",
-              "href": "https://github.com/DidheemosePS",
-              "icon": "github"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Mondelēz International",
       "href": "https://www.mondelez.com",
       "logo": "/img/mondelez-light.png",
@@ -34,10 +10,32 @@
           "title": "Facility Operations Coordinator",
           "start": "Jul 2024",
           "description": [
-            "Sole night-shift operative responsible for all operational activities across multiple zones, executing time-critical schedules from 20:00 to 05:00 with zero-failure handover to day shift.",
-            "Diagnosed and resolved operational equipment issues independently during night shift, identifying root causes and implementing solutions without escalation.",
-            "Maintained compliance documentation to client audit standards with zero failures across all inspection cycles.",
-            "Trained four new staff members on full site procedures including equipment operation, health and safety requirements, and compliance documentation."
+            "Managed daily facility operations, safety compliance, and urgent issues while finishing a full-time Master's degree."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Studd Games",
+      "href": "https://www.studdgames.com",
+      "logo": "/img/studd-games.png",
+      "positions": [
+        {
+          "title": "Cloud & Infrastructure Engineer (Freelance)",
+          "start": "Jun 2026",
+          "end": "Aug 2026",
+          "description": [
+            "Set up GitHub Actions workflows to push code directly to cPanel hosting, creating a reliable deployment process where none existed before.",
+            "Created a Git branch workflow (main, dev, feature) and a staging environment to safely test updates before releasing them to users.",
+            "Resolved DNS conflicts between Cloudflare and cPanel nameservers to bring the website back online and prevent downtime.",
+            "Updated web layouts for mobile screens, compressed image files, and used Docker to standardize local development setups."
+          ],
+          "links": [
+            {
+              "name": "Repository",
+              "href": "https://github.com/DidheemosePS",
+              "icon": "github"
+            }
           ]
         }
       ]
@@ -82,10 +80,10 @@
           "start": "Feb 2023",
           "end": "Mar 2024",
           "description": [
-            "Contributed to React/Node.js server-side applications supporting high-volume concurrent requests, maintaining stable system performance at production scale.",
-            "Assisted in optimising database indexing and RESTful API endpoints, contributing to measurable improvements in system response times.",
-            "Collaborated on implementing JWT authentication and data encryption standards across multiple services.",
-            "Supported automation of CI/CD pipelines, contributing to faster and more reliable deployment cycles."
+            "Added JWT user authentication, rate limiting, and request checks to protect client applications from unauthorized access and heavy traffic.",
+            "Connected front-end screens to databases, set up connection pooling, and optimized queries to make data load faster.",
+            "Developed modular front-end code and connected it with REST APIs to keep code organized and speed up feature delivery.",
+            "Managed local and staging databases, updated environment variables, and tested API endpoints to ensure system stability."
           ]
         }
       ]
