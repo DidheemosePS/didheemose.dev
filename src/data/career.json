@@ -1,16 +1,18 @@
 {
   "career": [
     {
-      "name": "Mondelēz International",
-      "href": "https://www.mondelez.com",
-      "logo": "/img/mondelez-light.png",
-      "logoDark": "/img/mondelez-dark.png",
+      "name": "Accurate Software Solutions",
+      "href": "https://www.accuratesoftware.online",
+      "logo": "/img/accurate-software.png",
       "positions": [
         {
-          "title": "Facility Operations Coordinator",
-          "start": "Jul 2024",
+          "title": "Junior Full-Stack Developer",
+          "start": "Feb 2023",
+          "end": "Mar 2024",
           "description": [
-            "Managed daily facility operations, safety compliance, and urgent issues while finishing a full-time Master's degree."
+            "Implemented JWT authentication, rate-limiting, and request validation to secure client systems against high-concurrency spikes.",
+            "Configured connection pooling, server-side caching, and query optimization to accelerate data retrieval and minimize latency.",
+            "Developed modular front-end components and integrated them with RESTful APIs to accelerate feature delivery."
           ]
         }
       ]
@@ -25,10 +27,9 @@
           "start": "Jun 2026",
           "end": "Aug 2026",
           "description": [
-            "Set up GitHub Actions workflows to push code directly to cPanel hosting, creating a reliable deployment process where none existed before.",
-            "Created a Git branch workflow (main, dev, feature) and a staging environment to safely test updates before releasing them to users.",
-            "Resolved DNS conflicts between Cloudflare and cPanel nameservers to bring the website back online and prevent downtime.",
-            "Updated web layouts for mobile screens, compressed image files, and used Docker to standardize local development setups."
+            "Engineered GitHub Actions workflows to deploy code directly to cPanel hosting, establishing a reliable deployment pipeline.",
+            "Architected a Git branching model and dedicated staging environment to isolate testing prior to production releases.",
+            "Resolved critical Cloudflare/cPanel DNS conflicts and refactored UI layouts for responsive mobile performance."
           ],
           "links": [
             {
@@ -46,49 +47,16 @@
       ]
     },
     {
-      "name": "Cursus",
-      "href": "https://cursus.didheemose.dev",
-      "logo": "/img/cursus.ico",
+      "name": "Mondelēz International",
+      "href": "https://www.mondelez.com",
+      "logo": "/img/mondelez-light.png",
+      "logoDark": "/img/mondelez-dark.png",
       "positions": [
         {
-          "title": "Founder & Infrastructure Engineer",
-          "start": "Dec 2025",
-          "end": "Mar 2026",
+          "title": "Facility Operations Coordinator",
+          "start": "Jul 2024",
           "description": [
-            "Provisioned and managed full AWS infrastructure using Terraform including ECS Fargate, RDS PostgreSQL, ALB, Route 53, ACM, and ECR. All infrastructure defined as code with zero manual configuration.",
-            "Built and operated CI/CD pipeline with AWS CodePipeline and CodeBuild, delivering zero-downtime container deployments to ECS on every release.",
-            "Configured Docker containerisation across all services, managing image builds, ECR pushes, and container orchestration on ECS Fargate.",
-            "Monitored production system health using CloudWatch dashboards and alarms, responding to and resolving infrastructure issues to maintain platform availability."
-          ],
-          "links": [
-            {
-              "name": "Live Platform",
-              "href": "https://cursus.didheemose.dev",
-              "icon": "globe"
-            },
-            {
-              "name": "GitHub",
-              "href": "https://github.com/DidheemosePS/cursus-lms",
-              "icon": "github"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Accurate Software Solutions",
-      "href": "https://www.accuratesoftware.online",
-      "logo": "/img/accurate-software.png",
-      "positions": [
-        {
-          "title": "Junior Full-Stack Developer",
-          "start": "Feb 2023",
-          "end": "Mar 2024",
-          "description": [
-            "Added JWT user authentication, rate limiting, and request checks to protect client applications from unauthorized access and heavy traffic.",
-            "Connected front-end screens to databases, set up connection pooling, and optimized queries to make data load faster.",
-            "Developed modular front-end code and connected it with REST APIs to keep code organized and speed up feature delivery.",
-            "Managed local and staging databases, updated environment variables, and tested API endpoints to ensure system stability."
+            "Managed daily facility operations, safety compliance, and urgent issues while finishing a full-time Master's degree."
           ]
         }
       ]

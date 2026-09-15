@@ -1,19 +1,21 @@
 {
   "projects": [
     {
-      "name": "Cursus",
-      "description": "Live cloud-native Learning Management System (LMS) platform built on AWS with zero-downtime deployments, multi-tenant architecture, and production-grade infrastructure as code.",
+      "name": "Cursus LMS. Automated AWS Infrastructure & CI/CD Platform",
+      "description": "Production-grade multi-tier AWS infrastructure (ECS Fargate, VPC private subnets) provisioned via Terraform, automated with a 3-stage GitHub Actions CI/CD pipeline and CloudWatch monitoring.",
       "href": "https://cursus.didheemose.dev",
-      "image": "/img/cursus.png",
+      "image": "/img/cursus-architecture.png",
       "tags": [
-        "AWS",
-        "ECS Fargate",
-        "Terraform",
-        "Docker",
-        "RDS PostgreSQL",
-        "Node.js",
-        "CI/CD Pipeline",
-        "CloudWatch"
+        "aws",
+        "ci-cd",
+        "cloudwatch",
+        "docker",
+        "ecs-fargate",
+        "github-actions",
+        "infrastruture-as-code",
+        "nodejs",
+        "postgresql",
+        "terraform"
       ],
       "links": [
         {
@@ -30,18 +32,22 @@
     },
     {
       "name": "CloudShield-Federated",
-      "description": "CloudShield-Federated is a production-grade, hybrid federated learning MLOps platform built for secure financial fraud detection. It implements a split-architecture monorepo that separates decentralized edge training from a secure cloud-native Kubernetes control plane. The system leverages Flower 1.36 for distributed model aggregation, MLflow for experiment tracking and model registry, Envoy Gateway for secure TLS termination and backend re-encryption, and a centralized FastAPI service to serve real-time predictions using global model checkpoints.",
+      "description": "Zero-trust cross-silo federated learning platform built with Kubernetes, Flower, Envoy Gateway mTLS, FastAPI inference, and MLflow tracking.",
       "href": "https://norma.ncirl.ie/8133",
       "image": "/img/cloudshield.png",
       "tags": [
-        "Python",
-        "AWS EC2",
-        "TensorFlow",
-        "Flask",
-        "Docker",
-        "Scikit-learn",
-        "KMeans",
-        "Federated Learning"
+        "docker-compose",
+        "envoy-gateway",
+        "fastapi",
+        "federated-learning-framework",
+        "grafana",
+        "grpc",
+        "kubernetes",
+        "mlflow",
+        "mlops",
+        "prometheus",
+        "pytorch",
+        "zero-trust"
       ],
       "links": [
         {

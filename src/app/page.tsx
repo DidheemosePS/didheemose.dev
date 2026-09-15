@@ -35,7 +35,8 @@ export default function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {currentAge}yo Cloud Infrastructure Engineer from Ireland 🇮🇪
+            {currentAge}yo Software Engineer (Full-Stack & Cloud) from Ireland
+            🇮🇪
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
